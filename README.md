@@ -11,10 +11,10 @@ Vagrant.configure("2") do |config|
 
 end
 ```
-Vagrant up - creates the virtual machine
-Vagrant destroy - destroys the virtual machine
-Vagrant ssh - enters the virtual machine
-Vagrant reload - reboots the VM
+`Vagrant up` - creates the virtual machine
+`Vagrant destroy` - destroys the virtual machine
+`Vagrant ssh` - enters the virtual machine
+`Vagrant reload` - reboots the VM
 
 
 Inside the virtual machine
@@ -22,7 +22,7 @@ Inside the virtual machine
 Sudo - allows you to perform root commands
 Apt - package manager, same as pip for python
 -y - ignores the are you sure check
-ps aux | grep - checks if something is running
-sudo systemctl start - starts a package you install
+`ps aux | grep` - checks if something is running
+`sudo systemctl start` - starts a package you install
 
-exit - leaves the virtual machine
+`exit` - leaves the virtual machine
